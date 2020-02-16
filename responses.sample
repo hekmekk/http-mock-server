@@ -1,0 +1,4 @@
+GET / HTTP/1.1 200OK\n\nroot
+GET /ping HTTP/1.1 200OK\n\npong
+PUT /ping HTTP/1.1 200OK\n\nthanks!
+POST /json HTTP/1.1 200OK\n\n{ "key":"value" }
